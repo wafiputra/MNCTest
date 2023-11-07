@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MNCTest.citizen>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nama)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.alamat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nama)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.alamat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.status)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.nik }) |
+            @Html.ActionLink("Details", "Details", new { id=item.nik }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.nik })
+        </td>
+    </tr>
+}
+
+</table>

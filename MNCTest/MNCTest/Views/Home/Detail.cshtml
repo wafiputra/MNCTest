@@ -1,0 +1,42 @@
+﻿@model MNCTest.citizen
+
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+
+<div>
+    <h4>citizen</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nama)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nama)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alamat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alamat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.nik }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

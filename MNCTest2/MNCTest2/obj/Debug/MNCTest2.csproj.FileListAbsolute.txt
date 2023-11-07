@@ -1,0 +1,10 @@
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\bin\Debug\MNCTest2.exe.config
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\bin\Debug\MNCTest2.exe
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\bin\Debug\MNCTest2.pdb
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\obj\Debug\MNCTest2.csproj.AssemblyReference.cache
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\obj\Debug\MNCTest2.Form1.resources
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\obj\Debug\MNCTest2.Properties.Resources.resources
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\obj\Debug\MNCTest2.csproj.GenerateResource.cache
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\obj\Debug\MNCTest2.csproj.CoreCompileInputs.cache
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\obj\Debug\MNCTest2.exe
+C:\Users\wafia\source\repos\MNCTest2\MNCTest2\obj\Debug\MNCTest2.pdb

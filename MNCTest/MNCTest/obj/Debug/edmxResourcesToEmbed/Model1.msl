@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="mnctestModelStoreContainer" CdmEntityContainer="mnctestContext">
+    <EntitySetMapping Name="citizens">
+      <EntityTypeMapping TypeName="mnctestModel.citizen">
+        <MappingFragment StoreEntitySet="citizens">
+          <ScalarProperty Name="nik" ColumnName="nik" />
+          <ScalarProperty Name="nama" ColumnName="nama" />
+          <ScalarProperty Name="alamat" ColumnName="alamat" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

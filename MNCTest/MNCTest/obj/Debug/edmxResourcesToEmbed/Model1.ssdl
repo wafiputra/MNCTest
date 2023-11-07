@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mnctestModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="citizens">
+    <Key>
+      <PropertyRef Name="nik" />
+    </Key>
+    <Property Name="nik" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="nama" Type="varchar" MaxLength="50" />
+    <Property Name="alamat" Type="varchar(max)" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="mnctestModelStoreContainer">
+    <EntitySet Name="citizens" EntityType="Self.citizens" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
